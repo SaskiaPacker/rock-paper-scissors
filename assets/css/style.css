@@ -1,2 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#body-background {
+    background-color: #223130;
+
+}
+
+h1 {
+    font-family: archivo-black, sans-serif;
+    color: #d3ffe9;
+}
+
+h2 {
+    font-family: archivo-black, sans-serif;
+    color: #b3d1cb;
+}
+
+h3 {
+    font-family: inter, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #d3ffe9;
+}
