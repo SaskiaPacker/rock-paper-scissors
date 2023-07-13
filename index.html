@@ -15,25 +15,26 @@
 
         <h1> Rock. Paper. Scissors.</h1>
         <div id="sub-title">
-            <h2> 3 rounds.</h2>
-            <h2> 1 winner.</h2>
+            <h2> 3 rounds.<span> &nbsp; 1 winner.</span></h2>
+        </div>
+        <div class="game-section">
+            <p id="start-your-turn">Start your turn!</p>
         </div>
     </header>
 
     <!--Button sections javascript will makes these responsive-->
     <section>
-        <div class="game-section">
-            <h2 id="start-your-turn">Start your turn!</h2>
+        <div id="button-styling">
+            <button class="button" data-choice="Rock" title="Rock &gt; scissors" aria-label="rock &gt; scissors">
+                <img src="assets/images/rock.png" class="button-emojis" aria-label="rock hand emoji">
+            </button>
+            <button class="button" data-choice="Paper" title="Paper &gt; rocks" aria-label="paper &gt; rock">
+                <img src="assets/images/paper.png" class="button-emojis" aria-label="paper hand emoji">
+            </button>
+            <button class="button" data-choice="scissors" title="scissors &gt; paper" aria-label="scissors &gt; paper">
+                <img src="assets/images/scissors.png" class="button-emojis" aria-label="scissors hand emoji">
+            </button>
         </div>
-        <button class="btn" data-choice="Rock" title="Rock &gt; scissors" aria-label="rock &gt; scissors">
-            <img src="assets/images/rock.png" class="button-emojis" aria-label="rock hand emoji">
-        </button>
-        <button class="btn" data-choice="Paper" title="Paper &gt; rocks" aria-label="paper &gt; rock">
-            <img src="assets/images/paper.png" class="button-emojis" aria-label="paper hand emoji">
-        </button>
-        <button class="btn" data-choice="scissors" title="scissors &gt; paper" aria-label="scissors &gt; paper">
-            <img src="assets/images/scissors.png" class="button-emojis" aria-label="scissors hand emoji">
-        </button>
     </section>
     <!--Result of th button click after user has clicked it, javascrit will make these responsive-->
     <section>

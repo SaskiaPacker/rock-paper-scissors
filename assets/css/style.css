@@ -12,18 +12,43 @@
 }
 
 h1 {
-    font-family: archivo-black, sans-serif;
+    font-family: inter, sans-serif;
+    font-weight: 900;
     color: #d3ffe9;
+    font-size: 7rem;
+    text-align: center;
+    margin: 2%;
 }
 
 h2 {
     font-family: archivo-black, sans-serif;
     color: #b3d1cb;
+    text-align: center;
+    font-size: 3rem;
+    margin: 2%;
 }
 
 h3 {
     font-family: inter, sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     color: #d3ffe9;
+}
+
+p {
+    font-family: inter, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #d3ffe9;
+
+}
+
+#button-styling {
+    margin: 3% 10%;
+    padding: 5%;
+    height: 10rem;
+    width: 70%;
+    text-align: center;
+    border: #d3ffe9 1px solid;
 }
