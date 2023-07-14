@@ -11,13 +11,14 @@
 
 }
 
+/* Heading Styling */
 h1 {
     font-family: inter, sans-serif;
     font-weight: 900;
     color: #d3ffe9;
     font-size: 7rem;
     text-align: center;
-    margin: 2%;
+    margin-top: 3%;
 }
 
 h2 {
@@ -44,11 +45,35 @@ p {
 
 }
 
+/* Button Styling */
 #button-styling {
-    margin: 3% 10%;
+    margin: 3% 9%;
     padding: 5%;
     height: 10rem;
     width: 70%;
     text-align: center;
     border: #d3ffe9 1px solid;
+}
+
+.button {
+    background: none;
+}
+
+.button-emojis {
+    margin: 0 80px;
+    padding: 0 10%;
+    background: none;
+    background-color: none;
+    transform: rotate(-90deg);
+}
+
+#paper-rotate {
+    transform: rotate(0deg);
+}
+
+#start-button {
+    font-family: inter, sans-serif;
+    color: black;
+    background-color: #d3ffe9;
+    padding: 2%;
 }
