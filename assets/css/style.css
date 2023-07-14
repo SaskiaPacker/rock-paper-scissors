@@ -18,7 +18,7 @@ h1 {
     color: #d3ffe9;
     font-size: 7rem;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 h2 {
@@ -47,10 +47,10 @@ p {
 
 /* Button Styling */
 #button-styling {
-    margin: 3% 9%;
-    padding: 5%;
-    height: 10rem;
-    width: 70%;
+    margin: auto;
+    padding: 2%;
+    height: 5rem;
+    width: 60%;
     text-align: center;
     border: #d3ffe9 1px solid;
 }
@@ -60,20 +60,159 @@ p {
 }
 
 .button-emojis {
-    margin: 0 80px;
-    padding: 0 10%;
+    margin: 0 90px;
+    padding: 0 3%;
     background: none;
     background-color: none;
     transform: rotate(-90deg);
+    height: 5rem;
 }
 
 #paper-rotate {
     transform: rotate(0deg);
 }
 
-#start-button {
+#result-for-button-click {
+    text-transform: uppercase;
+    text-align: center;
     font-family: inter, sans-serif;
+    font-weight: 900;
+    font-size: 16px;
     color: black;
     background-color: #d3ffe9;
     padding: 2%;
+    border-radius: 50px;
+    margin: 5% 37%;
+}
+
+/*Score section*/
+
+#score-section {
+    margin: 0 15%;
+}
+
+.score {
+    display: inline-block;
+    padding: 0 20%;
+    margin: 0;
+}
+
+/*Media Queries*/
+
+/*For screens 1900px and down*/
+@media screen and (max-width: 1900px) {
+    #result-for-button-click {
+        font-size: 22px;
+    }
+
+    #button-styling {
+        height: 8rem;
+        width: 60%;
+    }
+
+    .button-emojis {
+        margin-top: 2%;
+        height: 5rem;
+    }
+}
+
+/*For screens 1370px and down */
+@media screen and (max-width: 1370px) {
+
+    h1 {
+        font-size: 5rem;
+        text-align: center;
+        margin-top: 1%;
+    }
+
+    .button-emojis {
+        height: 4rem;
+    }
+
+    #score-section {
+        margin: 0 5%;
+    }
+
+    .score {
+        display: inline-block;
+        padding: 0 18%;
+        margin: 0;
+    }
+
+    #button-styling {
+        height: 5rem;
+        width: 60%;
+    }
+
+    .score {
+        padding: 0 20%;
+    }
+
+    #result-for-button-click {
+        margin: 5% 33%;
+    }
+}
+
+/*For screens 1233px and down*/
+@media screen and (max-width: 1233px) {
+    #paper-rotate {
+        margin: 0;
+    }
+}
+
+/*For screens 1000px and down*/
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 1%;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin: 2%;
+    }
+
+    .button-emojis {
+        margin: 0 60px;
+        padding: 0 3%;
+        height: 3rem;
+    }
+
+    #button-styling {
+        height: 3rem;
+    }
+
+    #score-section {
+        margin: 0 5%;
+    }
+
+
+    .score {
+        display: inline-block;
+        padding: 0 18%;
+        margin: 0;
+    }
+
+    #result-for-button-click {
+        margin: 5% 32%;
+        font-size: 18px;
+        color: black;
+        padding: 2%;
+
+    }
+}
+
+/*For screens 450px and down*/
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 1%;
+    }
+
+
+    #result-for-button-click {
+        margin: 5% 18%;
+    }
 }

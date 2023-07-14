@@ -37,25 +37,21 @@
                 </button>
             </div>
         </div>
-        <div>
-            <button id="start-button" title="start-button"
-                aria-label="start button to start rock paper scissors game">Start your turn
-            </button>
-        </div>
     </section>
     <!--Result of th button click after user has clicked it, javascrit will make these responsive-->
-    <section>
-        <div id="result-for-button-click">
-            <h3>Rock beats scissors, you win!</h3>
-        </div>
-    </section>
-
-    <section>
-        <div id="player-score">
+    <div>
+        <button id="result-for-button-click" title="start-button"
+            aria-label="start button to start rock paper scissors game">
+            <nobr>Rock beats scissors, you win!</nobr>
+        </button>
+    </div>
+    <!--Result of the game score, javascript will make this responsive-->
+    <section id="score-section">
+        <div class="score" id="player-score">
             <h3>You: <span>0</span></h3>
         </div>
 
-        <div id="computer-score">
+        <div class="score" id="computer-score">
             <h3>Computer: <span>0</span></h3>
         </div>
     </section>
