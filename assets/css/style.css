@@ -203,6 +203,24 @@ p {
     }
 }
 
+/*For screens 800px and down*/
+@media screen and (max-width: 800px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+}
+
+/*For screens 600px and down*/ 
+@media screen and (max-width: 600px){
+
+}
+
 /*For screens 450px and down*/
 @media screen and (max-width: 450px) {
     h1 {
@@ -211,8 +229,30 @@ p {
         margin-top: 1%;
     }
 
+    h3 {
+        font-size: 14px;
+    }
+
+    .button-emojis {
+        margin: 0 40px;
+        padding: 0 3%;
+        height: 2rem;
+    }
+
+    #button-styling {
+        height: 2rem;
+    }
 
     #result-for-button-click {
-        margin: 5% 18%;
+        margin: 5% 25%;
+        font-size: 12px;
     }
+
+    .score {
+        display: inline-block;
+        padding: 0 17%;
+        margin: 0;
+        font-size: 10px;
+    }
+
 }
