@@ -23,11 +23,13 @@
     <section>
         <div id="button-styling">
             <div id="emoji-styling">
-                <button class="button" id ="rock" data-choice="rock" title="rock &gt; scissors" aria-label="rock &gt; scissors">
+                <button class="button" id="rock" data-choice="rock" title="rock &gt; scissors"
+                    aria-label="rock &gt; scissors">
                     <img src="assets/images/rock.png" class="button-emojis" alt="rock hand emoji">
                 </button>
 
-                <button class="button" id ="paper" data-choice="paper" title="paper &gt; rocks" aria-label="paper &gt; rock">
+                <button class="button" id="paper" data-choice="paper" title="paper &gt; rocks"
+                    aria-label="paper &gt; rock">
                     <img src="assets/images/paper.png" class="button-emojis" id="paper-rotate" alt="paper hand emoji">
                 </button>
 
@@ -40,19 +42,19 @@
     </section>
     <!--Result of th button click after user has clicked it, javascrit will make these responsive-->
     <div>
-        <button id="result-for-button-click" title="start-button"
+        <button class="result" title="start-button"
             aria-label="start button to start rock paper scissors game">
             <nobr>Rock beats scissors, you win!</nobr>
         </button>
     </div>
     <!--Result of the game score, javascript will make this responsive-->
     <section id="score-section">
-        <div class="score" id="player-score">
-            <h3>You: <span>0</span></h3>
+        <div class="score">
+            <h3>You: <span id="player-score">0</span></h3>
         </div>
 
-        <div class="score" id="computer-score">
-            <h3>Computer: <span>0</span></h3>
+        <div class="score">
+            <h3>Computer: <span id="computer-score">0</span></h3>
         </div>
     </section>
 

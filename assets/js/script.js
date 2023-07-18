@@ -1,11 +1,11 @@
 // Code from "What's Dev part two" which is credited in readME
 // Variables for DOM elements 
-const userScore = 0;
-const computerScore = 0;
+let userScore = 0;
+let computerScore = 0;
 const userScore_span = document.getElementById("player-score");
 const computerScore_span = document.getElementById("computer-score");
 const scoreBoard_div = document.querySelector("#score-section");
-const result_div = document.querySelector("#result-for-button-click");
+const result_div = document.querySelector(".result");
 const rockButton = document.getElementById("rock");
 const paperButton = document.getElementById("paper");
 const scissorsButton = document.getElementById("scissors");
@@ -18,6 +18,21 @@ function getComputerChoice() {
     return choices[randomNumber];
 }
 
+function win(userChoice, computerChoice) {
+    userScore++;
+    userScore_span.innerHTML = userScore;
+    computerScore_span.innerHTML = computerScore;
+    result_div.innerHTML = userChoice + " beats " + computerChoice + ". You win!";
+}
+
+function lose() {
+    console.log("lose");
+}
+
+function draw() {
+    console.log("draw");
+}
+
 //gets combinations of the game and see which ones wines, looser or draws//
 function game(userChoice) {
     const computerChoice = getComputerChoice();
@@ -25,17 +40,17 @@ function game(userChoice) {
         case "rockscissors":
         case "paperrock":
         case "sscissorspaper":
-            console.log("User Wins!");
+            win(userChoice, computerChoice);
             break;
         case "rockpaper":
         case "paperscissors":
         case "scissorsrock":
-            console.log("User loses!");
+            lose(userChoice, computerChoice);
             break;
         case "rockrock":
         case "paperpaper":
         case "scissorsscissors":
-            console.log("It's a draw!");
+            draw(userChoice, computerChoice);
             break;
     }
 }
