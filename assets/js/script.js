@@ -22,15 +22,18 @@ function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_div.innerHTML = userChoice + " beats " + computerChoice + ". You win!";
+    result_div.innerHTML = `${userChoice} beats ${computerChoice}. You win this round!`;
 }
 
-function lose() {
-    console.log("lose");
+function lose(userChoice, computerChoice) {
+    computerScore++;
+    userScore_span.innerHTML = userScore;
+    computerScore_span.innerHTML = computerScore;
+    result_div.innerHTML = `${computerChoice} wins ${userChoice}. You lose this round!`;
 }
 
-function draw() {
-    console.log("draw");
+function draw(userChoice, computerChoice) {
+    result_div.innerHTML = `${userChoice} is the same as ${computerChoice}. You draw!`;
 }
 
 //gets combinations of the game and see which ones wines, looser or draws//
