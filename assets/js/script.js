@@ -1,5 +1,5 @@
 // Code from "What's Dev part two" which is credited in readME
-// Variables for DOM elements 
+// Variables for DOM elements
 let userScore = 0;
 let computerScore = 0;
 const userScore_span = document.getElementById("player-score");
@@ -18,6 +18,7 @@ function getComputerChoice() {
     return choices[randomNumber];
 }
 
+ 
 function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
@@ -56,8 +57,8 @@ function game(userChoice) {
             draw(userChoice, computerChoice);
             break;
     }
-}
 
+}
 
 // Event listeners for when clicking the emoji buttons//
 function main() {
@@ -74,4 +75,4 @@ function main() {
     });
 }
 
-main(); 
+main();

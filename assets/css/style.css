@@ -218,10 +218,24 @@ p {
         font-size: 1.5rem;
     }
 
+    h3 {
+        font-size: 13px;
+    }
+
     .score {
         display: inline-block;
-        padding: 0 16%;
+        padding: 0 19%;
         margin: 0;
+    }
+
+    .button-emojis {
+        margin: 0 50px;
+        padding: 0 3%;
+        height: 2.5rem;
+    }
+
+    .result {
+        font-size: 14px;
     }
 
 }
@@ -236,7 +250,7 @@ p {
     }
 
     h3 {
-        font-size: 1rem;
+        font-size: 13px;
     }
 
     .result {
@@ -267,8 +281,12 @@ p {
         margin-top: 1%;
     }
 
+    h2 {
+        font-size: 1rem;
+    }
+
     h3 {
-        font-size: 14px;
+        font-size: 11px;
     }
 
     .button-emojis {
@@ -283,7 +301,7 @@ p {
 
     .result {
         margin: 5% 25%;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .score {
