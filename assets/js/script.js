@@ -1,6 +1,5 @@
 // Code from "What's Dev part two" which is credited in readME
 // Variables for DOM elements
-/*jshint esversion: 6 */
 let userScore = 0;
 let computerScore = 0;
 const userScore_span = document.getElementById("player-score");

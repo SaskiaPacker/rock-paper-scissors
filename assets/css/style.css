@@ -18,7 +18,7 @@ h1 {
     color: #d3ffe9;
     font-size: 7rem;
     text-align: center;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 h2 {
@@ -125,8 +125,7 @@ p {
 
     h1 {
         font-size: 5.5rem;
-        text-align: center;
-        margin-top: 1%;
+        margin-top: 3%;
     }
 
     .button-emojis {
@@ -167,9 +166,8 @@ p {
 /*For screens 1000px and down*/
 @media screen and (max-width: 1000px) {
     h1 {
-        font-size: 4rem;
-        text-align: center;
-        margin-top: 1%;
+        font-size: 4.6rem;
+        margin-top: 3%;
     }
 
     h2 {
@@ -210,7 +208,8 @@ p {
 @media screen and (max-width: 800px) {
 
     h1 {
-        font-size: 3rem;
+        font-size: 3.4rem;
+        margin-top: 3%;
     }
 
     h2 {
@@ -244,8 +243,7 @@ p {
 
     h1 {
         font-size: 2.5rem;
-        text-align: center;
-        margin-top: 1%;
+        margin-top: 3%;
     }
 
     h3 {
@@ -277,7 +275,7 @@ p {
     h1 {
         font-size: 1.8rem;
         text-align: center;
-        margin-top: 1%;
+        margin-top: 3%;
     }
 
     h2 {
