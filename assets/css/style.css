@@ -68,7 +68,6 @@ p {
     margin: 0 90px;
     padding: 0 3%;
     background: none;
-    background-color: none;
     transform: rotate(-90deg);
     height: 5rem;
 }
