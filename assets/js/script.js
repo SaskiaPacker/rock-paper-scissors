@@ -4,7 +4,6 @@ let userScore = 0;
 let computerScore = 0;
 const userScore_span = document.getElementById("player-score");
 const computerScore_span = document.getElementById("computer-score");
-const scoreBoard_div = document.querySelector("#score-section");
 const result_div = document.querySelector(".result");
 const rockButton = document.getElementById("rock");
 const paperButton = document.getElementById("paper");
@@ -18,7 +17,7 @@ function getComputerChoice() {
     return choices[randomNumber];
 }
 
- 
+
 function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
