@@ -124,7 +124,7 @@ p {
 @media screen and (max-width: 1370px) {
 
     h1 {
-        font-size: 5.5rem;
+        font-size: 5.2rem;
         margin-top: 3%;
     }
 
@@ -166,7 +166,7 @@ p {
 /*For screens 1000px and down*/
 @media screen and (max-width: 1000px) {
     h1 {
-        font-size: 4.4rem;
+        font-size: 4.2rem;
         margin-top: 3%;
     }
 
@@ -208,7 +208,7 @@ p {
 @media screen and (max-width: 800px) {
 
     h1 {
-        font-size: 3.4rem;
+        font-size: 3.2rem;
         margin-top: 3%;
     }
 
