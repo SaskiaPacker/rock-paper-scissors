@@ -43,7 +43,7 @@ function game(userChoice) {
     switch (userChoice + computerChoice) {
         case "rockscissors":
         case "paperrock":
-        case "sscissorspaper":
+        case "scissorspaper":
             win(userChoice, computerChoice);
             break;
         case "rockpaper":
