@@ -8,9 +8,22 @@ My idea for this project was to create a Rock, Paper Scissors game
 
 # Table of Contents
 [UX](#ux)
-[Site purpose](#site-purpose)
-[User Purpose]()
+- [User Purpose](#user-purpose)
+- [User Goals](#user-goals)
 
+[Design](#design)
+- [Colour Scheme](#colour-scheme)
+- [Typography](#typography)
+- [Wire Frames](#wire-frames)
+
+[Features](#features)
+- [Header](#header)
+- [Game Area](#game-area)
+- [Score Section](#score-section)
+- [Future Implementation](#future-implementations)
+- [Accessbility](#accessibility)
+
+[Technologies Used](#technology-used)
 
 # UX 
 Rock paper scissors is a simple, easy and fun game to play by yourself. It can also be used to make decision based on the loser or winner. 
@@ -55,5 +68,61 @@ The score section that keep the score visible to the user and the lets the user 
 ### Future Implementations 
 - To set a break for best out of 5.
 - To be able to start over without having to refresh the browser.
+
+### Accessibility
+- Semanctic HTML 
+- Sufficient colour contrast 
+- Aria labels and alt attributes 
+- Large buttons so you're able to read thing easily
+
+# Technologies Used 
+
+### Languages Used
+- HTML
+- CSS
+- Javascript
+
+### Framesworks, Libraries & Programs Used
+- Github 
+- Codeanywhere 
+- Google Fonts
+- Js Hint
+- W3 Schools 
+- Google Dev Tools
+- Am I responsive? 
+
+# Deployment and Local Development 
+
+## Deployment 
+Github pages has been used to deploy the live website. The instructions to achieve this are below: 
+
+- Login in (or sign up) to GitHub.
+- In the top right had conrner, click your picture and then select 'your respoitories' 
+- Find the respository for this project, rock-paper-scissors
+- Click on the settings link in the left hand side navigation bar. 
+- In the source section, choose main from the drop down menu, select branch menu. 
+- Select root from the drop down, select folder menu 
+- Click save. Your live Github pages is now deployed at the URL shown.
+
+## Local Deployment 
+### How To Fork 
+To fork the Rock, Paper, Scissors repository: 
+- Login in to GitHub (or sign up)
+- Go to the repository for this project. /SaskiaPacker/rock-paper-scissors 
+- Click fork in the to right corner. 
+
+### How to Clone 
+To clone the Rock, Paper, Scissors repository 
+- Log in (or sign up to) GitHub. 
+- Go to the respository for this project SaskiaPacker/rock-paper-scissors
+- Click on the code button, select whether you would like to clone with HTTPS, SSH, or GitHub CLI and copy the link shown 
+- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory. 
+- Type 'git clone' into the terminal and then paste the link you copied in step 3. 
+- Press Enter. 
+
+
+
+
+
 
 
