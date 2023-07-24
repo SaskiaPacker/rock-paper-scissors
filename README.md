@@ -24,6 +24,8 @@ My idea for this project was to create a Rock, Paper Scissors game
 - [Accessbility](#accessibility)
 
 [Technologies Used](#technology-used)
+- [Languages Used](#languages-used)
+- [Local Deployment](#local-deployment)
 
 # UX 
 Rock paper scissors is a simple, easy and fun game to play by yourself. It can also be used to make decision based on the loser or winner. 
@@ -120,6 +122,29 @@ To clone the Rock, Paper, Scissors repository
 - Type 'git clone' into the terminal and then paste the link you copied in step 3. 
 - Press Enter. 
 
+# Testing 
+- The chrome developer tool was used to find any issues while building the webpage. 
+
+- The W3C validators for HTML and CSS were used when the website was finished. JS Hint was used for Javascript. 
+![w3c-css](assets/images-readme/w3c-css.png)
+![w3c-html](assets/images-readme/wc3-html.png)
+![js-hint-javascript](assets/images-readme/js-hint-javascript.png)
+
+- Lighthouse Testing 
+![light-house-testing](assets/images-readme/light-house-testing.png)
+
+### Solved Bugs 
+- I originally had a non-breaking text element tag in my html for the result button, which effected the padding when designing in css. To solve this I just took the tag out and allowed the button to flow over two lines where neccissary. 
+
+- When first loading the emoji's into my html and css, they had a white background box around them. To get rid of this, I just set the background to none when writing my css code.
+
+# Credits 
+Inspiration and code came from two different YouTube tutorials and other students' projects.
+- [How to Build a Rock Paper Scissors Game with Html, Css, and Javascript (Part 2)](https://www.youtube.com/watch?v=Qqy8Ov3NWvQ&t=2946s&ab_channel=whatsdev)
+- [How To Code Rock Paper Scissors In JavaScript](youtube.com/watch?v=1yS-JV4fWqY&ab_channel=WebDevSimplified)
+-[3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)](https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=519s&ab_channel=CodewithAniaKub%C3%B3w)
+- [https://github.com/Tanjava/RPSLS](https://github.com/Tanjava/RPSLS)
+- [https://github.com/JordanKingVeoxyl/rock-paper-scissors-lizard-spock-final](https://github.com/JordanKingVeoxyl/rock-paper-scissors-lizard-spock-final)
 
 
 
