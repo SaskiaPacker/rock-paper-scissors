@@ -40,6 +40,8 @@ To play the rock, paper, scissors game as displayed on the screen and be able to
 
 ### Colour Scheme
 I went for darker toned colours, which are all in the same tone range back the dark green background, to make the design feel clean and easy to read. It also gives the illusion of no age range, which is what I was aiming for as I want my game to be played by all ages.
+
+- The background colour is actually hex code #223130, rather than #222130 hex code. When typing this hex code in, it was a happy accident, but I think the green gives it a more visually appealing feel.
 ![Colour Palette](assets/images-readme/colour-pallette.png)
 
 ### Typography

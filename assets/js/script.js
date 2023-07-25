@@ -2,9 +2,9 @@
 // Variables for DOM elements
 let userScore = 0;
 let computerScore = 0;
-const userScore_span = document.getElementById("player-score");
-const computerScore_span = document.getElementById("computer-score");
-const result_div = document.querySelector(".result");
+const userScoreSpan = document.getElementById("player-score");
+const computerScoreSpan = document.getElementById("computer-score");
+const resultDiv = document.querySelector(".result");
 const rockButton = document.getElementById("rock");
 const paperButton = document.getElementById("paper");
 const scissorsButton = document.getElementById("scissors");
@@ -20,20 +20,20 @@ function getComputerChoice() {
 
 function win(userChoice, computerChoice) {
     userScore++;
-    userScore_span.innerHTML = userScore;
+    userScoreSpan.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_div.innerHTML = `${userChoice} beats ${computerChoice}. You win this round!`;
+    resultDiv.innerHTML = `${userChoice} beats ${computerChoice}. You win this round!`;
 }
 
 function lose(userChoice, computerChoice) {
     computerScore++;
-    userScore_span.innerHTML = userScore;
-    computerScore_span.innerHTML = computerScore;
-    result_div.innerHTML = `${computerChoice} wins ${userChoice}. You lose this round!`;
+    userScoreSpan.innerHTML = userScore;
+    computerScoreSpan.innerHTML = computerScore;
+    resultDiv.innerHTML = `${computerChoice} wins ${userChoice}. You lose this round!`;
 }
 
 function draw(userChoice, computerChoice) {
-    result_div.innerHTML = `${userChoice} is the same as ${computerChoice}. You draw!`;
+    resultDiv.innerHTML = `${userChoice} is the same as ${computerChoice}. You draw!`;
 }
 
 //gets combinations of the game and see which ones wines, looser or draws//
