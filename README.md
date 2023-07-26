@@ -27,6 +27,20 @@ My idea for this project was to create a Rock, Paper Scissors game
 - [Languages Used](#languages-used)
 - [Local Deployment](#local-deployment)
 
+[Deployment and Local Development](#deployment-and-local-development)
+- [Deployment](#deployment)
+- [Local Deployment ](#local-deployment)
+- [How To Fork](#how-to-fork)
+- [How to clone](#how-to-clone)
+
+[Testing](#testing)
+- [Solved Bugs](#solved-bugs)
+
+[Credits](#credits)
+- [Content](#content)
+- [Media](#media)
+- [Acknowledgements](#acknowledgements)
+
 # UX 
 Rock paper scissors is a simple, easy and fun game to play by yourself. It can also be used to make decision based on the loser or winner. 
 
@@ -158,8 +172,8 @@ Inspiration and code came from two different YouTube tutorials and other student
 Written by Saskia Packer
 
 ### Media 
-Emoji's are from [Emojiedia](https://emojipedia.org/)
-Favicon came from [Favicon Generator](https://favicon.io/favicon-generator/)
+- Emoji's are from [Emojiedia](https://emojipedia.org/)
+- Favicon came from [Favicon Generator](https://favicon.io/favicon-generator/)
 
 ### Acknowledgements 
 I'd like to give a special thanks to my tutor Martina Terlevic, who has been really supportive in the process of making this website. 
