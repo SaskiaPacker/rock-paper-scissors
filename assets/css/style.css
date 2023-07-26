@@ -288,6 +288,18 @@ p {
         margin: 0;
     }
 
+    p {
+        font-size: 0.5rem;
+
+    }
+
+    .social-icon-style i {
+        font-size: 90%;
+        color: #f7f4ea;
+        padding: 10px 10px 0 10px;
+        line-height: 20px;
+    }
+
 
 }
 
@@ -327,6 +339,18 @@ p {
         padding: 0 16%;
         margin: 0;
         font-size: 10px;
+    }
+
+    p {
+        font-size: 0.5rem;
+
+    }
+
+    .social-icon-style i {
+        font-size: 100%;
+        color: #f7f4ea;
+        padding: 10px 10px 0 10px;
+        line-height: 20px;
     }
 
 }
