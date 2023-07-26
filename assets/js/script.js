@@ -21,7 +21,7 @@ function getComputerChoice() {
 function win(userChoice, computerChoice) {
     userScore++;
     userScoreSpan.innerHTML = userScore;
-    computerScore_span.innerHTML = computerScore;
+    computerScoreSpan.innerHTML = computerScore;
     resultDiv.innerHTML = `${userChoice} beats ${computerChoice}. You win this round!`;
 }
 
