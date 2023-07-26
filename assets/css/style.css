@@ -179,6 +179,10 @@ p {
 
 /*For screens 1233px and down*/
 @media screen and (max-width: 1233px) {
+    h1 {
+        margin-top: 3%;
+    }
+
     #paper-rotate {
         margin: 0;
     }
@@ -201,7 +205,7 @@ p {
 @media screen and (max-width: 1000px) {
     h1 {
         font-size: 4.2rem;
-        margin-top: 1%;
+        margin-top: 2%;
     }
 
     h2 {
@@ -255,7 +259,7 @@ p {
 
     h1 {
         font-size: 3.2rem;
-        margin-top: 1%;
+        margin-top: 2%;
     }
 
     h2 {
@@ -301,7 +305,7 @@ p {
 
     h1 {
         font-size: 2.5rem;
-        margin-top: 1%;
+        margin-top: 2%;
     }
 
     h3 {
@@ -345,7 +349,7 @@ p {
     h1 {
         font-size: 1.5rem;
         text-align: center;
-        margin-top: 1%;
+        margin-top: 2%;
     }
 
     h2 {
