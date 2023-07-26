@@ -18,7 +18,7 @@ h1 {
     color: #d3ffe9;
     font-size: 7rem;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 h2 {
@@ -40,7 +40,7 @@ p {
     font-family: inter, sans-serif;
     text-align: center;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 0.90rem;
     color: #d3ffe9;
 
 }
@@ -86,7 +86,7 @@ p {
     background-color: #d3ffe9;
     padding: 2%;
     border-radius: 50px;
-    margin: 5% 37%;
+    margin: 3% 37%;
 }
 
 /*Score section*/
@@ -99,6 +99,27 @@ p {
     display: inline-block;
     padding: 0 20%;
     margin: 0;
+}
+
+/*Footer section*/
+
+#footer-container {
+    margin-top: 20px;
+}
+
+.social-icon-style {
+    text-align: center;
+}
+
+.social-icon-style>li {
+    display: inline-block;
+}
+
+.social-icon-style i {
+    font-size: 180%;
+    color: #f7f4ea;
+    padding: 30px 40px 0 40px;
+    line-height: 20px;
 }
 
 /*Media Queries*/
@@ -167,7 +188,7 @@ p {
 @media screen and (max-width: 1000px) {
     h1 {
         font-size: 4.2rem;
-        margin-top: 3%;
+        margin-top: 1%;
     }
 
     h2 {
@@ -209,7 +230,7 @@ p {
 
     h1 {
         font-size: 3.2rem;
-        margin-top: 3%;
+        margin-top: 1%;
     }
 
     h2 {
@@ -243,7 +264,7 @@ p {
 
     h1 {
         font-size: 2.5rem;
-        margin-top: 3%;
+        margin-top: 1%;
     }
 
     h3 {
@@ -275,7 +296,7 @@ p {
     h1 {
         font-size: 1.5rem;
         text-align: center;
-        margin-top: 3%;
+        margin-top: 1%;
     }
 
     h2 {
