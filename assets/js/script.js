@@ -17,7 +17,7 @@ function getComputerChoice() {
     return choices[randomNumber];
 }
 
-
+// Function message for winner, loser or draw and increment score to winner//
 function win(userChoice, computerChoice) {
     userScore++;
     userScoreSpan.innerHTML = userScore;
@@ -36,7 +36,7 @@ function draw(userChoice, computerChoice) {
     resultDiv.innerHTML = `${userChoice} is the same as ${computerChoice}. You draw!`;
 }
 
-//gets combinations of the game and see which ones wines, looser or draws//
+//compares all combinations of the game and what result is//
 function game(userChoice) {
     const computerChoice = getComputerChoice();
     switch (userChoice + computerChoice) {

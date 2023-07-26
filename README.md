@@ -69,6 +69,10 @@ The score section that keep the score visible to the user and the lets the user 
 ![Score-area-two](assets/images-readme/score-area-two.png)
 ![Score-area-three](assets/images-readme/score-area-three.png)
 
+### Footer 
+The footer gives the audience to go to the companies socials.
+![footer](assets/images-readme/footer.png)
+
 ### Future Implementations 
 - To set a break for best out of 5.
 - To be able to start over without having to refresh the browser.
@@ -140,6 +144,8 @@ To clone the Rock, Paper, Scissors repository
 
 - When first loading the emoji's into my html and css, they had a white background box around them. To get rid of this, I just set the background to none when writing my css code.
 
+- The favicon wouldn't load in the deployed website. I solve this by editing the file path and making sure everything was spelt correctly. This is what solved it.
+
 # Credits 
 Inspiration and code came from two different YouTube tutorials and other students' projects.
 - [How to Build a Rock Paper Scissors Game with Html, Css, and Javascript (Part 2)](https://www.youtube.com/watch?v=Qqy8Ov3NWvQ&t=2946s&ab_channel=whatsdev)
@@ -147,6 +153,16 @@ Inspiration and code came from two different YouTube tutorials and other student
 -[3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)](https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=519s&ab_channel=CodewithAniaKub%C3%B3w)
 - [https://github.com/Tanjava/RPSLS](https://github.com/Tanjava/RPSLS)
 - [https://github.com/JordanKingVeoxyl/rock-paper-scissors-lizard-spock-final](https://github.com/JordanKingVeoxyl/rock-paper-scissors-lizard-spock-final)
+
+### Content 
+Written by Saskia Packer
+
+### Media 
+Emoji's are from [Emojiedia](https://emojipedia.org/)
+Favicon came from [Favicon Generator](https://favicon.io/favicon-generator/)
+
+### Acknowledgements 
+I'd like to give a special thanks to my tutor Martina Terlevic, who has been really supportive in the process of making this website. 
 
 
 
