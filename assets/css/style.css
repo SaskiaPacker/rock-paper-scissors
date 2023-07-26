@@ -182,6 +182,19 @@ p {
     #paper-rotate {
         margin: 0;
     }
+
+
+    p {
+        font-size: 0.8rem;
+
+    }
+
+    .social-icon-style i {
+        font-size: 140%;
+        color: #f7f4ea;
+        padding: 20px 20px 0 20px;
+        line-height: 20px;
+    }
 }
 
 /*For screens 1000px and down*/
@@ -223,6 +236,18 @@ p {
         padding: 2%;
 
     }
+
+    p {
+        font-size: 0.8rem;
+
+    }
+
+    .social-icon-style i {
+        font-size: 140%;
+        color: #f7f4ea;
+        padding: 20px 20px 0 20px;
+        line-height: 20px;
+    }
 }
 
 /*For screens 800px and down*/
@@ -255,6 +280,18 @@ p {
 
     .result {
         font-size: 14px;
+    }
+
+    p {
+        font-size: 0.6rem;
+
+    }
+
+    .social-icon-style i {
+        font-size: 130%;
+        color: #f7f4ea;
+        padding: 20px 20px 0 20px;
+        line-height: 20px;
     }
 
 }
@@ -294,9 +331,9 @@ p {
     }
 
     .social-icon-style i {
-        font-size: 90%;
+        font-size: 120%;
         color: #f7f4ea;
-        padding: 10px 10px 0 10px;
+        padding: 20px 20px 0 20px;
         line-height: 20px;
     }
 
@@ -349,7 +386,7 @@ p {
     .social-icon-style i {
         font-size: 100%;
         color: #f7f4ea;
-        padding: 10px 10px 0 10px;
+        padding: 20px 20px 0 20px;
         line-height: 20px;
     }
 
