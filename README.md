@@ -2,9 +2,11 @@
 
 *I would just like to state that I am dsylexic, so if there are spelling, grammatical errors or mistakes please bare with me.*
 
-My idea for this project was to create a Rock, Paper Scissors game
+My idea for this project was to create a Rock, Paper, Scissors game.
 
 ![Site view across all devices](assets/images-readme/deployed-website.png)
+
+The deployed website can be found [here.](https://saskiapacker.github.io/rock-paper-scissors/)
 
 # Table of Contents
 [UX](#ux)
@@ -57,6 +59,8 @@ I went for darker toned colours, which are all in the same tone range back the d
 
 - The background colour is actually hex code #223130, rather than #222130 hex code. When typing this hex code in, it was a happy accident, but I think the green gives it a more visually appealing feel.
 ![Colour Palette](assets/images-readme/colour-pallette.png)
+
+The colour pallette was created using [coolors.](https://coolors.co/)
 
 ### Typography
 I used [Google Fonts](https://fonts.google.com/) to source my typography. I sourced two typefaces called 'Archivo' and 'Inter' but I only used 'Inter' for all of my tyepfaces, heading and body copy. I did this for simplicity, so the user doesn't get overwhelemd with too amy typefaces. In addition I used a bold sans serif, which again, makese it easier to read and keeps the design much simpler.
@@ -167,6 +171,8 @@ Inspiration and code came from two different YouTube tutorials and other student
 -[3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)](https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=519s&ab_channel=CodewithAniaKub%C3%B3w)
 - [https://github.com/Tanjava/RPSLS](https://github.com/Tanjava/RPSLS)
 - [https://github.com/JordanKingVeoxyl/rock-paper-scissors-lizard-spock-final](https://github.com/JordanKingVeoxyl/rock-paper-scissors-lizard-spock-final)
+- [https://github.com/Tanjava/RPSLS](https://github.com/Tanjava/RPSLS)
+- [https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md)
 
 ### Content 
 Written by Saskia Packer
